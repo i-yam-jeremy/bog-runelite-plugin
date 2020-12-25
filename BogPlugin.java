@@ -51,12 +51,8 @@
  */
 package net.runelite.client.plugins.bog;
 
-import com.google.inject.Provides;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import javax.inject.Inject;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
@@ -72,8 +68,6 @@ import net.runelite.api.events.GameObjectSpawned;
 import net.runelite.api.events.GroundObjectChanged;
 import net.runelite.api.events.GroundObjectDespawned;
 import net.runelite.api.events.GroundObjectSpawned;
-import net.runelite.api.events.ItemDespawned;
-import net.runelite.api.events.ItemSpawned;
 import net.runelite.api.events.WallObjectChanged;
 import net.runelite.api.events.WallObjectDespawned;
 import net.runelite.api.events.WallObjectSpawned;
