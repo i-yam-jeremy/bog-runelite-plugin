@@ -185,7 +185,8 @@ public class BogPlugin extends Plugin
 	private void onTileObject(Tile tile, TileObject oldObject, TileObject newObject)
 	{
 		walkableBogTiles.remove(oldObject);
-		if (newObject != null && newObject.getId() == WALKABLE_BOG_TILE_ID) {
+		if (newObject != null && newObject.getId() == WALKABLE_BOG_TILE_ID)
+		{
 			walkableBogTiles.add(newObject);
 		}
 	}
